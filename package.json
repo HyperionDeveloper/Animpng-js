@@ -1,0 +1,33 @@
+{
+  "name": "Animpng-js",
+  "version": "0.0.1",
+  "description": "Parse and play animated PNG",
+  "main": "lib/index.js",
+  "types": "types/library/parser.d.ts",
+  "repository": "https://github.com/HyperionDeveloper/Animpng-js",
+  "author": "Hyperion",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.6.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0"
+  }
+}
